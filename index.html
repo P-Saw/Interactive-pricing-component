@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive pricing component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./js.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Simple, traffic-based pricing</h1>
+    <p class="pharagraph">Sign-up for our 30-day trial. No credit card required.</p>
+  </header>
+<main>
+    <div class="pricing-container">
+      <div class="first-content-wrapper">
+        <p class="pageviews">PAGEVIEWS</p>
+        <div class="slider-container">
+          <input type="range" min="0" max="100" step="25" class="range">
+        </div>
+        <div class="price-container">
+          <span class="price">$16.00</span><span class="pharagraph">/ month</span>
+        </div>
+        <div class="discount-container">
+          <p class="pharagraph">Monthly Billing</p>
+          <label class="switch">
+            <input type="checkbox" class="check">
+            <span class="slider round"></span>
+          </label>
+          <p class="pharagraph">Yearly Billing</p>
+          <span class="percent">-25%&nbsp;<span class="discount">discount</span></span>
+        </div>
+      </div>
+      <div class="data">
+        <div class="p-wrapper">
+          <p class="pharagraph"><img src="./images/icon-check.svg" alt=""> Unlimited websites</p>
+          <p class="pharagraph"><img src="./images/icon-check.svg" alt=""> 100% data ownership</p>
+          <p class="pharagraph"><img src="./images/icon-check.svg" alt=""> Email reports</p>
+        </div>
+        <button class="btn">Start my trial</button>
+      </div>
+    </div>
+</main>
+</body>
+</html>
