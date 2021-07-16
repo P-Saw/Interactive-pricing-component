@@ -1,6 +1,6 @@
 const range = document.querySelector('.range');
 
-range.addEventListener('mousemove', () =>{
+range.addEventListener('input', () =>{
     const x = range.value;
     const color = `linear-gradient(90deg, hsl(174, 86%, 45%) ${x}%, white ${x}%)`;
     range.style.background = color;
